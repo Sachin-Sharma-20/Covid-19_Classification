@@ -31,6 +31,6 @@ else:
     else:
         st.write("Covid-19 Negative")
     
-    st.text("Probability (0: Covid-19 Positive, 1: Covid-19 Negative")
+    st.text("Probability (0: Covid-19 Positive, 1: Covid-19 Negative)")
     st.write(prediction)
 
