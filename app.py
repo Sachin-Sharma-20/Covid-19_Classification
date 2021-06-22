@@ -8,7 +8,7 @@ model = keras.models.load_model('Datasets/best_model.hdf5')
 
 st.title("Covid-19 Detection using chest X-ray classification")
 
-file = st.file_uploader(label='Upload the image containing chest X-ray', type=['jpg'])
+file = st.file_uploader(label='Upload the image containing chest X-ray', type=['jpg','jpeg','bmp'])
 
 def import_and_predict(image, model):
     img = np.asarray(image)
