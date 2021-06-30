@@ -1,10 +1,10 @@
 import streamlit as st
-import keras
+from tensorflow import keras
 import numpy as np
 import cv2
 from PIL import Image
 
-model = keras.models.load_model('Datasets/best_model.hdf5')
+model = keras.models.load_model('./model.h5')
 
 st.title("Covid-19 Detection using chest X-ray classification")
 
